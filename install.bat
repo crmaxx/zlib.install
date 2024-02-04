@@ -102,6 +102,7 @@ if not defined CMAKE (echo cmake.exe is not accessible by default. Looking into 
 if not defined CMAKE (call :setup_cmake_path_for "%PROGRAMFILES%\CMake\bin")
 if not defined CMAKE (call :setup_cmake_path_for "C:\Program Files\CMake\bin")
 if not defined CMAKE (call :setup_cmake_path_for "C:\Program Files (x86)\CMake\bin")
+if not defined CMAKE (call :setup_cmake_path_for "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin")
 @goto :eof
 
 :setup_cmake_path_for
